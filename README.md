@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+**Note:
+
 There might be a problem with the project dependency tree.
 It is likely not a bug in Create React App, but something you need to fix locally.
 
@@ -18,6 +20,12 @@ If prefer to ignore this check, add SKIP_PREFLIGHT_CHECK=true to an .env file in
 That will permanently disable this message but you might encounter other issues.
 .env file is already on the proyect.
 
+**You must have JSON Server working to run the aplication. 
+Use your package manager to download. Once installed open the package.json and make sure you have this:
+"scripts": {
+    "start": "json-server -p 3001 -w db.json"
+  }
+ To install i used npm.
 
 ## Available Scripts
 
