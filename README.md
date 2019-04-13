@@ -1,5 +1,24 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+There might be a problem with the project dependency tree.
+It is likely not a bug in Create React App, but something you need to fix locally.
+
+The react-scripts package provided by Create React App requires a dependency:
+
+"webpack": "4.19.1"
+
+Don't try to install it manually: your package manager does it automatically.
+However, a different version of webpack was detected higher up in the tree:
+
+C:\Users\loicq\node_modules\webpack (version: 4.27.0)
+
+Manually installing incompatible versions is known to cause hard-to-debug issues.
+
+If prefer to ignore this check, add SKIP_PREFLIGHT_CHECK=true to an .env file in your project.
+That will permanently disable this message but you might encounter other issues.
+.env file is already on the proyect.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
